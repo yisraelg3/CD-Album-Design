@@ -1,6 +1,13 @@
-function addH2() {
-    const h2 = document.createElement('h2');
-    h2.textContent = "By Chana Gurkow & Devorah Polter";
-    document.querySelector('body').appendChild(h2);
+/*function addH5() {
+    const h5 = document.createElement('h5');
+    h5.textContent = "By Chana Gurkow & Devorah Polter";
+    document.getElementById('header').appendChild(h5);
 }
-document.querySelector('h1').addEventListener('mouseover', addH2);
+
+function removeh5 () {
+    const h5 = document.querySelector('h5');
+    const remh5 = document.getElementById('header');
+    remh5.removeChild(h5);
+}
+document.getElementById('header').addEventListener('mouseenter', addH5);
+document.getElementById('header').addEventListener('mouseout', removeh5);*/
